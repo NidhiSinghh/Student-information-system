@@ -16,6 +16,25 @@ namespace sis_v2.Repository
         List<Object> GetEnrolledCourses();
         int EnrollInCourse(Enrollment e,string courseName);
         int MakePayment(Payment p);
+        List<Payment> GetPaymentHistory(int id);
+        List<Course> DisplayCourseInfo();
+        List<Teacher> DisplayTeacherInfo();
+        int UpdateCourseInfo(Course course);
+        Course GetCourseById(int cId);
+        Teacher GetTeacherById(int tId);
+        List<Enrollment> GetEnrollments(int courseId);
+        Object GetTeacher(int courseId);
+        //int AssignTeacher(Teacher t, int courseId);
+        //Object GetStudent(int enrollmentId);
+        Object GetCourse(int enrollmentId);
+        int UpdateTeacherInfo(Teacher teacher);
+        List<object> GetAssignedCourses(int teacherId);
+        Object GetStudentWithEnrollment(int eId);
+        List<Object> GetStudentWithPayment(int paymentId);
+        Object GetPaymentAmount(int PaymentId);
+        Object GetPaymentDate(int PaymentId);
+        
+
 
     }
 }

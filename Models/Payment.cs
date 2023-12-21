@@ -26,7 +26,7 @@ namespace sis_v2.Models
 
         public override string ToString()
         {
-            return $"PaymentId:{PaymentId},Student Id:{StudentId} ,Amount : {Amount},PaymentDate:{PaymentDate} ";
+            return $"PaymentId:{PaymentId}\tStudent Id:{StudentId}\t Amount :{Amount}\tPaymentDate:{PaymentDate} ";
         }
     }
 }

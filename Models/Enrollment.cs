@@ -26,7 +26,7 @@ namespace sis_v2.Models
 
         public override string ToString()
         {
-            return $"Enrollemt Id:{EnrollmentId},Student Id:{StudentId} ,Course Id: {CourseId},Enroll Dtae:{EnrollmentDate} ";
+            return $"Enrollemt Id:{EnrollmentId}\t,Student Id:{StudentId}\t,Course Id: {CourseId},Enroll Date:{EnrollmentDate} ";
         }
     }
 }

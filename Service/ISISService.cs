@@ -14,5 +14,21 @@ namespace sis_v2.Service
         void GetEnrolledCourses();
        void EnrollInCourse();
         void MakePayment();
+        void GetPaymentHistory();
+        void DisplayCourseInfo();
+        void DisplayTeacherInfo();
+        void UpdateCourseInfo();
+        void GetCourseById();
+        void GetEnrollments();
+        void GetTeacher();
+        void GetStudentWithEnrollment();
+        void  GetCourse();
+        void UpdateTeacherInfo();
+        void GetAssignedCourses();
+        void GetStudentWithPayment();
+        void GetPaymentAmount();
+        void GetPaymentDate();
+        void GetStudentById();
+        void GetTeacherById();
     }
 }

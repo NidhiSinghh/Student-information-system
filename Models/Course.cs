@@ -9,9 +9,9 @@ namespace sis_v2.Models
     internal class Course
     {
         public int CourseId { get; set; }
-        public string CourseName { get; set; }
-        public int Credits { get; set; }
-        public int TeacherId { get; set; }
+        public string? CourseName { get; set; }
+        public int? Credits { get; set; }
+        public int? TeacherId { get; set; }
 
         //public Course() { }
         //public Course(int id, string courseName, int credits, int teacherId)
@@ -24,7 +24,7 @@ namespace sis_v2.Models
         //}
         public override string ToString()
         {
-            return $"Course Id:{CourseId},Course Name:{CourseName} ,Credits: {Credits},Teacher Id:{TeacherId} ";
+            return $"Course Id:{CourseId}\tCourse Name:{CourseName}\tCredits: {Credits}\tTeacher Id:{TeacherId} ";
         }
 
     }
