@@ -1,4 +1,4 @@
---ASSIGNMENT2
+--Student Information Sql file
 
 CREATE DATABASE SIS;
 USE SIS;
